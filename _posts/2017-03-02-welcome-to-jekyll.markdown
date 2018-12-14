@@ -1,25 +1,26 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-03-02 17:05:13 +0000
-categories: jekyll update
+title:  "18年底流片反思"
+date:   2018-12-14 17:05:13 +0000
+categories: 数字IC实验室
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+很感谢史老师，在实验室的最后几个月得到了一次流片机会。SMIC 55nm 
+与师弟做了三个工作，在优矽科技的RISC-V设计中完成了
+1.硬件木马
+2.TDC硬件木马检测结构
+3.TDC工艺木马检测结构
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+最终还是有点问题，1204提交foundry，120411后仿发现了问题。
+时间来不及，项目要deadline了，不能停，就这样TDC检测硬件木马4条路径的三条废了。
+反思一下
+IC设计里不存在举手之劳这回事，只要是自己要用到的必须自己去做去验
+不能懒，不能懈怠，一个疏忽，就是石头，完全没办法
+项目时间是死的，deadline就是deadline，没法拖延
+任务交界地带容易出现三不管，宁可多覆盖一点，也不要事不关己，想着我不做总会有人做，真的没人做，责任下来谁都跑不了，心里也过意不去
+一定不能想当然，debug必须把问题定位到点，真真切切地把问题解决
+保留好所有证据，自己做过的验证要留下版本证据，拍照邮件都行，不然会被坑
+要有责任心
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+希望明年不要是在灯光下尝试和一块石头交谈
+下一个项目要做的更好啊
+石头是不可能石头的，这辈子都不可能石头的
