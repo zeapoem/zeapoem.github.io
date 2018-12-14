@@ -17,7 +17,7 @@ title: 朔望
 email: zeapoem@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   博观约取 厚积薄发
-baseurl: /blog
+baseurl: "" #/blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xcleus
 github_username:  zeapoem
