@@ -4,6 +4,7 @@
  * Copyright 2016 @huxpro
  * Licensed under Apache 2.0
  * service worker scripting
+ * verify by xzp in 201812
  * ========================================================== */
 
 // CACHE_NAMESPACE
@@ -20,7 +21,7 @@ const PRECACHE_LIST = [
   "./js/hux-blog.min.js",
   "./js/snackbar.js",
   "./img/icon_wechat.png",
-  "./img/avatar-hux.jpg",
+  "./img/wechat.jpg",
   "./img/home-bg.jpg",
   "./img/404-bg.jpg",
   "./css/hux-blog.min.css",
@@ -31,7 +32,7 @@ const PRECACHE_LIST = [
 ]
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
-  "huangxuan.me",
+  "zeapoem.github.io",
   "yanshuo.io",
   "cdnjs.cloudflare.com"
 ]
