@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "18年底流片反思"
+title:  "1812layout"
 date:   2018-12-14 17:05:13 +0000
-categories: 数字IC实验室
+categories: XDU Digital IC Design Lab
 ---
 很感谢史老师，在实验室的最后几个月得到了一次流片机会。SMIC 55nm  
 与师弟做了三个工作，在优矽科技的RISC-V设计中完成了  
