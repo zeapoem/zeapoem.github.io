@@ -64,7 +64,10 @@ disqus_username: zeapoem
 # Netease settings
 netease_comment: false
 
-
+#gitment
+comment_gitment_repo: zeapoem.github.io
+comment_gitment_clientId: 778869f236fc6dc9f8ce
+comment_gitment_clientSecret: 0fcf28121e7074b953327eb6a30eff1c329bac54
 
 # Analytics settings
 # Baidu Analytics 
